@@ -1,0 +1,5 @@
+Causa: Usuário digita um ID que não existe.
+if (id < 0 || id >= (int)livros.size()) {
+    cout << "ID inválido!\n";
+    break;
+}
