@@ -1,0 +1,5 @@
+Solução: validar entrada
+do {
+    cout << "Digite o título: ";
+    getline(cin, livro.titulo);
+} while (livro.titulo.empty());
